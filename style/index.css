@@ -1,0 +1,53 @@
+/*Enter your code here*/
+/*google font url */
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Satisfy&display=swap');
+body {
+    background-image: url('../images/background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+.header{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    size: 200px;
+    
+}
+.text{
+    margin-right: 80%;
+}
+#topButton{
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    align-items: left;
+    size: 50px;
+}
+#topButtons{
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    align-items: left;
+    size: 50px;
+}
+.logo-title{
+    font-family: 'Satisfy',cursive;
+    color: blue;
+    font-size: 40px;
+}
+.middleText{
+    font-family: 'Marck Script',cursive;
+    font-size: 15px;
+}
+#midButton{
+    background-color: rgb(205, 205, 49);
+    color: black;
+    padding: 10px;
+    align-items: left;
+    font-weight: bold;
+}
+.midiv{
+    text-align: center;
+    padding-top: 10%;
+}
