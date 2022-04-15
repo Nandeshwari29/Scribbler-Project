@@ -1,0 +1,105 @@
+/*google font url */
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Satisfy&display=swap');
+
+.header{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    size: 200px;
+    margin-top: 10px;
+    
+}
+.text{
+    margin-right: 80%;
+}
+#topButton{
+    background-color: rgb(121, 121, 211);
+    color: white;
+    padding: 5px;
+    align-items: left;
+    size: 50px;
+    margin-top: 20px;
+}
+
+.logo-title{
+    font-family: 'Satisfy',cursive;
+    color: rgb(57, 57, 202);
+    font-size: 40px;
+}
+.middleText{
+    font-family: 'Marck Script',cursive;
+    font-size: 15px;
+    color: white;
+}
+#trash{
+    float: right;
+    margin-top: 10px;
+}
+#yesno{
+    text-align: center;
+    width: 130px;
+    padding: 1px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#text-yesno{
+    text-align: center;
+
+}
+#doticon{
+    float: right;
+    font-weight: 100%;
+    margin-bottom: 20px;
+}
+.post {
+    position: relative;
+    width: 45%;
+    height: 20%;
+    background: #fff;
+    box-shadow:0 4px 10px 0 rgba(17, 4, 63, 0.2),0 4px 20px 0 rgba(79, 19, 97, 0.19);
+    margin: 10px 10px 10px 40px;
+    float:left;
+    border-radius: 15px;
+    align-items: center;
+}
+    
+.post-left {
+        width: 15%;            
+        max-width: 15%;
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+        font-weight: bold;
+        color: #000;
+}
+.post-content {
+        width: 75%;           
+        display: table-cell;
+        text-align: left;
+        background-color: #E8E8E8;
+        color: #000000;
+        border-radius: 0 15px 15px 0;
+        padding: 0 20px; 
+        overflow: hidden;     
+}
+.post-title{
+    font-family: 'Itim', cursive;
+    font-weight: bold;
+    color: #2b312b;
+    font-size: 20px;
+    height: 25px;
+    margin-top: 10px;
+    }
+.post-more {
+    float: right;
+    cursor: pointer;
+    font-size: 18px;
+    margin-right: 0 !important;
+    padding-right: 0 !important;
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+.post-desc{
+    height: 100px;
+    margin-bottom: 0 !important;
+}

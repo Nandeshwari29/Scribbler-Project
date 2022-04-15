@@ -18,22 +18,24 @@ body {
     margin-right: 80%;
 }
 #topButton{
-    background-color: blue;
+    background-color: rgb(121, 121, 211);
     color: white;
     padding: 5px;
     align-items: left;
     size: 50px;
+    margin-top: 10px;
 }
 #topButtons{
-    background-color: blue;
+    background-color: rgb(121, 121, 211);
     color: white;
     padding: 5px;
     align-items: left;
     size: 50px;
+    margin-top: 10px;
 }
 .logo-title{
     font-family: 'Satisfy',cursive;
-    color: blue;
+    color: rgb(57, 57, 202);
     font-size: 40px;
 }
 .middleText{
