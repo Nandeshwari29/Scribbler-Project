@@ -1,8 +1,8 @@
 var editMode=false;
-function addComments(userComments){
-    var addEventName = userComments.value +'<br>';
+function addComments(id){
+    var addEventName = id.value +'<br>';
     var a = document.getElementById('userComments');
-    document.getElementById('commentsborder').innerHTML += '<div class="comment">'+addEventName+'</div>';          
+    document.getElementById('comment').innerHTML = "<p style='background-color:white; margin-right:10px; margin-top:10px; padding:10px'>"+addEventName+'</p>'+ document.getElementById('comment').innerHTML;          
     a.value=a.defaultValue;
 }
 //Enter your code here

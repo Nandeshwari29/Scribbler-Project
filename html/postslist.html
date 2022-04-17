@@ -22,7 +22,7 @@
              <p class="middleText">Explore, Imagine, Create</p>
         </div>
         <!--Header Buttons-->
-        <div>
+        <div id="butttons">
             <!--Sign In button-->
             <button type="button" class="btn btn-primary" id="topButton" data-bs-toggle="modal" data-bs-target="#exampleModal">Sign In</button>
             <!-- Modal Sign in-->
@@ -37,14 +37,18 @@
                             <form>
                                 <div class="mb-3">
                                     <label for="exampleInputEmail1" class="form-label">User Name</label>
-                                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter User Name" aria-describedby="emailHelp">
+                                    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Enter User Name" aria-describedby="emailHelp", required>
                                 </div>
                                 <div class="mb-3">
                                     <label for="exampleInputPassword1" class="form-label">Password</label>
-                                    <input placeholder="Enter Password" type="password" class="form-control" id="exampleInputPassword1">
+                                    <input placeholder="Enter Password" type="password" class="form-control" id="exampleInputPassword1", required>
                                 </div>
                                 
-                                <button type="submit" class="btn btn-primary">Sign In</button>
+                                <button type="submit" class="btn btn-primary" style="width:100%">Sign In</button>
+                                <div class="modal-footer border-top-0 d-flex justify-content-center">
+                                    Not a member ? <span style="color:blue; cursor: pointer;" data-bs-target="#exampleModeSignUp"
+                                        data-bs-toggle="modal"> Sign Up</span>
+                                </div>
                             </form>
                         </div>
                     </div>
@@ -65,25 +69,25 @@
                             <form>
                                 <div class="mb-3">
                                     <label for="exampleInputName1" class="form-label">Full Name</label>
-                                    <input type="text" placeholder="Enter Full Name" class="form-control" id="exampleInputName1" aria-describedby="emailHelp">
+                                    <input type="text" placeholder="Enter Full Name" class="form-control" id="exampleInputName1" aria-describedby="emailHelp", required>
                                 </div>
                 
                                 <div class="mb-3">
                                     <label for="exampleInputUsername1" class="form-label">Username</label>
-                                    <input type="text" placeholder="Enter Username" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                    <input type="text" placeholder="Enter Username" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp", required>
                                 </div>
                                     
                                 <div class="mb-3">
                                     <label for="exampleInputPassword1" class="form-label">Password</label>
-                                    <input placeholder="Enter a Password" type="password" class="form-control" id="exampleInputPassword1">
+                                    <input placeholder="Enter a Password" type="password" class="form-control" id="exampleInputPassword1", required>
                                 </div>
                                     
                                 <div class="mb-3">
                                     <label for="exampleInputPassword2" class="form-label">Confirm Password</label>
-                                    <input placeholder="Confirm Password" type="password" class="form-control" id="exampleInputPassword2">
+                                    <input placeholder="Confirm Password" type="password" class="form-control" id="exampleInputPassword2", required>
                                 </div>
         
-                                <button type="submit" class="btn btn-primary">Sign Up</button>
+                                <button type="submit" class="btn btn-primary" style="width:100%">Sign Up</button>
                             </form>
                         </div>
                     </div>
@@ -96,7 +100,7 @@
     <!-- ATTENTION: The HTML code for the list of posts has been given to you. You can feel free to add/delete/modify this code. You need to write the proper CSS and JavaScript code corresponding to this page so that the result looks like the screenshots given to you in the Project Statement. -->
 
     <!-- list of all posts starts here -->
-    <div>
+    <div id="maindiv">
 
         <!-- post 1 starts here -->
         <div class="post">
@@ -160,7 +164,7 @@
         <!-- post 4 ends here -->
 
         <!-- post 5 starts here -->
-        <div class="post">
+        <div class="post-last">
             <div class="post-left">
                 <p class="post-username">Srishti Gupta</p>
             </div>

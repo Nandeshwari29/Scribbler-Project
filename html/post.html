@@ -19,7 +19,7 @@
              <p class="middleText">Explore, Imagine, Create</p>
         </div>
         <!--Header Buttons-->
-        <div>
+        <div id="butttons">
             <!--Sign In button-->
             <button type="button" class="btn btn-primary" id="topButton" data-bs-toggle="modal" data-bs-target="#exampleModal">Sign In</button>
             <!-- Modal Sign in-->
@@ -34,14 +34,18 @@
                             <form>
                                 <div class="mb-3">
                                     <label for="exampleInputEmail1" class="form-label">User Name</label>
-                                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter User Name" aria-describedby="emailHelp">
+                                    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Enter User Name" aria-describedby="emailHelp", required>
                                 </div>
                                 <div class="mb-3">
                                     <label for="exampleInputPassword1" class="form-label">Password</label>
-                                    <input placeholder="Enter Password" type="password" class="form-control" id="exampleInputPassword1">
+                                    <input placeholder="Enter Password" type="password" class="form-control" id="exampleInputPassword1", required>
                                 </div>
                                 
-                                <button type="submit" class="btn btn-primary">Sign In</button>
+                                <button type="submit" class="btn btn-primary" style="width:100%">Sign In</button>
+                                <div class="modal-footer border-top-0 d-flex justify-content-center">
+                                    Not a member ? <span style="color:blue; cursor: pointer;" data-bs-target="#exampleModeSignUp"
+                                        data-bs-toggle="modal"> Sign Up</span>
+                                </div>
                             </form>
                         </div>
                     </div>
@@ -62,25 +66,25 @@
                             <form>
                                 <div class="mb-3">
                                     <label for="exampleInputName1" class="form-label">Full Name</label>
-                                    <input type="text" placeholder="Enter Full Name" class="form-control" id="exampleInputName1" aria-describedby="emailHelp">
+                                    <input type="text" placeholder="Enter Full Name" class="form-control" id="exampleInputName1" aria-describedby="emailHelp", required>
                                 </div>
                 
                                 <div class="mb-3">
                                     <label for="exampleInputUsername1" class="form-label">Username</label>
-                                    <input type="text" placeholder="Enter Username" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                    <input type="text" placeholder="Enter Username" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp", required>
                                 </div>
                                     
                                 <div class="mb-3">
                                     <label for="exampleInputPassword1" class="form-label">Password</label>
-                                    <input placeholder="Enter a Password" type="password" class="form-control" id="exampleInputPassword1">
+                                    <input placeholder="Enter a Password" type="password" class="form-control" id="exampleInputPassword1", required>
                                 </div>
                                     
                                 <div class="mb-3">
                                     <label for="exampleInputPassword2" class="form-label">Confirm Password</label>
-                                    <input placeholder="Confirm Password" type="password" class="form-control" id="exampleInputPassword2">
+                                    <input placeholder="Confirm Password" type="password" class="form-control" id="exampleInputPassword2", required>
                                 </div>
         
-                                <button type="submit" class="btn btn-primary">Sign Up</button>
+                                <button type="submit" class="btn btn-primary" style="width:100%">Sign Up</button>
                             </form>
                         </div>
                     </div>
@@ -119,14 +123,15 @@
     </div>
     <div id="text-padding">
         <br>
-        <textarea placeholder="Leave a comment..." id="userComments" value="" rows="4" cols="100"></textarea>
-        <br>
-        <button id="addList" onclick="addComments(userComments)">Comment</button>
-        <div id="addEventNames"></div>
-        <br>
-        <p id="comments-heading">All Comments</p>
+        <textarea placeholder="Leave a comment..." id="userComments" value="" rows="4" cols="100"></textarea><br>
+        <button class="likeBlog" id="liked" onclick="addComments(userComments)">Comment</button>
+        <h5 id="comments-heading">All Comments</h5>
         <div class="commentscontainer">
-            <div id="commentsborder"></div>
+            <div id="commentsborder">
+                <div id="comment">
+
+                </div>
+            </div>
         </div>
     </div>
     <script src="../scripts/post.js"></script>

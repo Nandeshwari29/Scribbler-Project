@@ -26,10 +26,19 @@ body {
     font-family: 'Satisfy',cursive;
     color: rgb(57, 57, 202);
     font-size: 40px;
+    position: absolute;
+    left: 0;
+}
+#butttons{
+    position:absolute;
+    right: 0;
 }
 .middleText{
     font-family: 'Marck Script',cursive;
     font-size: 15px;
+    position: absolute;
+    left: 0;
+    top: 50px;
 }
 #midButton{
     background-color: rgb(205, 205, 49);
@@ -37,29 +46,10 @@ body {
     padding: 10px;
     align-items: left;
     font-weight: bold;
+    margin-top: 200px;
 }
 .midiv{
     text-align: center;
     padding-top: 10%;
 }
-@media  (max-width: 700px) {
-    .header{
-        align-content: center;
-    }
 
-    #topButton{
-        margin-left: 20px;
-        font-size: small;
-        height: 50px;
-        width: 80px;
-        float: right;
-    }
-    .text{
-        margin-right: 45%;
-        margin-left: 2%;
-    }
-    #midButton{
-        margin-top: 20%;
-    }
-
-}
