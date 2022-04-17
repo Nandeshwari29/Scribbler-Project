@@ -103,3 +103,29 @@
     height: 100px;
     margin-bottom: 0 !important;
 }
+@media  (max-width: 700px) {
+    .header{
+        align-content: center;
+    }
+
+    #topButton{
+        margin-left: 20px;
+        font-size: small;
+        height: 50px;
+        width: 80px;
+        float: right;
+    }
+    .text{
+        margin-right: 45%;
+    }
+    .post {
+        position:static;
+        width: 90%;
+        height: 40%;
+        float:center;
+        align-items: center;
+    }
+
+    
+
+}

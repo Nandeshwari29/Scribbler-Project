@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="../style/post.css">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- TODO: Include code for header here -->
+    <!--Header-->    
+    <div class="header">
+        <!--Header Text-->
+        <div class="text">
+             <p id="pageTitle" class="logo-title">ScriBBler</p>
+             <p class="middleText">Explore, Imagine, Create</p>
+        </div>
+        <!--Header Buttons-->
+        <div>
+            <!--Sign In button-->
+            <button type="button" class="btn btn-primary" id="topButton" data-bs-toggle="modal" data-bs-target="#exampleModal">Sign In</button>
+            <!-- Modal Sign in-->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Welcome Back!</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="mb-3">
+                                    <label for="exampleInputEmail1" class="form-label">User Name</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter User Name" aria-describedby="emailHelp">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                                    <input placeholder="Enter Password" type="password" class="form-control" id="exampleInputPassword1">
+                                </div>
+                                
+                                <button type="submit" class="btn btn-primary">Sign In</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+             <!--Sign Up Button-->   
+            <button type="button"  class="btn btn-primary" id="topButton" data-bs-toggle="modal" data-bs-target="#exampleModeSignUp">Sign Up</button>
+
+                <!-- Modal Sign up -->
+                <div class="modal fade" id="exampleModeSignUp" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Get Started</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="mb-3">
+                                    <label for="exampleInputName1" class="form-label">Full Name</label>
+                                    <input type="text" placeholder="Enter Full Name" class="form-control" id="exampleInputName1" aria-describedby="emailHelp">
+                                </div>
+                
+                                <div class="mb-3">
+                                    <label for="exampleInputUsername1" class="form-label">Username</label>
+                                    <input type="text" placeholder="Enter Username" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                </div>
+                                    
+                                <div class="mb-3">
+                                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                                    <input placeholder="Enter a Password" type="password" class="form-control" id="exampleInputPassword1">
+                                </div>
+                                    
+                                <div class="mb-3">
+                                    <label for="exampleInputPassword2" class="form-label">Confirm Password</label>
+                                    <input placeholder="Confirm Password" type="password" class="form-control" id="exampleInputPassword2">
+                                </div>
+        
+                                <button type="submit" class="btn btn-primary">Sign Up</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!--the code for text--> 
+    </div>
+    <h3 id="text-h3" contenteditable="true">The legacy of Jimi Hendrix</h3>
+    <br>
+    <!--edit button-->
+    <button type="button" id="edit-button" onclick="edit()">Edit<i class="fa fa-edit" style="padding-left: 5px;"></i></button>
+    <!--username-->
+    <p class="sub-heading">Jimi</p>
+    <!--paragraph content-->
+    <p id="paraText" contenteditable="true">Jimi Hendrix was arguably the greatest instrumentalist in the history of rock music.
+        [1]Hedrix expanded the range and vocabulary of the electric guitar into aresa no musician had ever ventured before. 
+        His boundless drive, technical ability and creative application of such effects as distortion forever tranformed the sound of rock and roll. 
+        While creating his unique musical voice and guitar style, Hendrix synthesized diversegenres, including blues,R&B, soul, British rock, American folk music, 1950s rock ans roll, psychedelic and jazz. 
+        Hedrix favoured overdriven amplifiers with high volume and gain.
+        [119] He was instrumental in developing the previously undersirable technique of guitar amplifier feedback, and helpedto poularize use of the wah-wah pedal in mainstream rock.
+        [348] He rejected the standard barre chord fretting technique used by mostguitarists in favor of fretting the low 6th stringroot notes with his thumb.
+        [349] He applied this technique during the beginning bars of "Little Wing", which allowed him to sustain the root note of chords while also playingmelody. 
+        This methd has been described as paino style, with thumb playing what a pianist's left hand would play ans the other fingers playing melody as a right hand.
+        [350] Having spent several years fronting a trio, he developed an ability to play rhythm chords and lead lines together, giving the audio impression that more than one guitarist was performing.
+        [351][nb41] He was the first artist to incorporate setreophonic phasing effects in rock music recordings.
+        [554] Holly Georege-Warren of Rolling Stone commented:"Hendrix pioneered the use of the instrument as an electronic sound source. 
+        Players before hi had experimented with feedback and distortion, but Hendrix turned those effects and others into a controlled, fluid vocabulary every bit as personal as the blues with which he began."
+        [3][nb42] Aledort wrote:"In rock guitar, there are but two eras- before Hendrix and after Hendrix."
+    </p>
+     <!--like button-->   
+    <div class="likeBlogButton" id="text-padding">    
+        <button  id= "likeBlog" onclick="postLiked()"><!--Add button here-->
+        <i class="fa fa-thumbs-up" aria-hidden="true"></i> Like</button><br>
+        <span id="commentCount">Be the first one to like this!</span><br>
+    </div>
+    <div id="text-padding">
+        <br>
+        <textarea placeholder="Leave a comment..." id="userComments" value="" rows="4" cols="100"></textarea>
+        <br>
+        <button id="addList" onclick="addComments(userComments)">Comment</button>
+        <div id="addEventNames"></div>
+        <br>
+        <p id="comments-heading">All Comments</p>
+        <div class="commentscontainer">
+            <div id="commentsborder"></div>
+        </div>
+    </div>
+    <script src="../scripts/post.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    
+</body>
+</html>

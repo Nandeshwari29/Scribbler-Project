@@ -9,23 +9,12 @@ body {
   }
 .header{
     display: flex;
-    align-content: center;
-    justify-content: center;
-    size: 200px;
     
 }
 .text{
     margin-right: 80%;
 }
 #topButton{
-    background-color: rgb(121, 121, 211);
-    color: white;
-    padding: 5px;
-    align-items: left;
-    size: 50px;
-    margin-top: 10px;
-}
-#topButtons{
     background-color: rgb(121, 121, 211);
     color: white;
     padding: 5px;
@@ -52,4 +41,25 @@ body {
 .midiv{
     text-align: center;
     padding-top: 10%;
+}
+@media  (max-width: 700px) {
+    .header{
+        align-content: center;
+    }
+
+    #topButton{
+        margin-left: 20px;
+        font-size: small;
+        height: 50px;
+        width: 80px;
+        float: right;
+    }
+    .text{
+        margin-right: 45%;
+        margin-left: 2%;
+    }
+    #midButton{
+        margin-top: 20%;
+    }
+
 }

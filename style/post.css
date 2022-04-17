@@ -1,0 +1,125 @@
+/*Enter your code here*/
+/*google font url */
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Satisfy&display=swap');
+.header{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    size: 200px;
+    
+}
+.text{
+    margin-right: 80%;
+}
+#topButton{
+    background-color: rgb(121, 121, 211);
+    color: white;
+    padding: 5px;
+    align-items: left;
+    size: 50px;
+    margin-top: 10px;
+}
+.logo-title{
+    font-family: 'Satisfy',cursive;
+    color: rgb(57, 57, 202);
+    font-size: 40px;
+}
+.middleText{
+    font-family: 'Marck Script',cursive;
+    font-size: 15px;
+}
+#text-h3{
+    text-align: center;
+    margin-left: 550px;
+    margin-right: 550px;
+}
+.sub-heading{
+    font-family: 'Marck Script',cursive;
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 130px;
+}
+#paraText{
+    margin-left: 130px;
+    margin-right: 130px;
+}
+#text-padding{
+    margin-left: 130px;
+    margin-right: 130px;
+}
+#addList{
+    margin-top: 10px;
+    background-color: rgb(221, 35, 97);
+    color: white;
+    width: 90px;
+    border-color: rgb(221, 35, 97);
+    border-radius: 5px;
+}
+#likeBlog{
+    background-color: rgb(221, 35, 97);
+    color: white;
+    width: 90px;
+    border-color: rgb(221, 35, 97);
+    border-radius: 5px;
+    
+}
+#usercomments{
+    margin-top: 50px;
+}
+#commentCount{
+    font-family: cursive;
+}
+#edit-button{
+    background-color: rgb(221, 35, 97);
+    color: white;
+    border-color: rgb(221, 35, 97);
+    border-radius: 2px;
+    float: right;
+    margin-right: 130px;
+    width: 90px;
+}
+[contenteditable] {
+    outline: 0px solid transparent;
+}
+#comments-heading{
+    font-weight: bold;
+}
+.commentscontainer{
+    min-height: 0px;
+    overflow: hidden;
+    margin-right: 500px;
+
+}
+#commentsborder{
+    background-color: lightgrey;
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+    
+}
+.comment{
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    margin-right: 20px;
+}
+@media  (max-width: 700px) {
+    .header{
+        align-content: center;
+    }
+
+    #topButton{
+        margin-left: 20px;
+        font-size: small;
+        height: 50px;
+        width: 80px;
+        float: right;
+    }
+    .text{
+        margin-right: 45%;
+    }
+    #text-h3{
+        margin-left: 159px;
+        margin-right: 150px;
+    }
+}
